@@ -1,0 +1,131 @@
+{
+	"type" : "header",
+	"title" : "Lecture 1",
+	"objects" : [
+		{
+			"type" : "header",
+			"title" : "Basic Combinations",
+			"objects" : [
+				{
+					"type" : "section",
+					"title" : "E.G.",
+					"objects" : [
+						{
+							"type" : "text",
+							"data" : "How many 2 character long letter arrangements are possible?"
+						}
+					]
+				},
+				{
+					"type" : "section",
+					"title" : "Solution",
+					"objects" : [
+						{
+							"type" : "numeral",
+							"objects" : [
+								{
+									"type" : "array",
+									"columns" : "c|ccccc",
+									"inline" : true,
+									"hline" : false,
+									"rows" : [
+										"\\text{} & \\text{A} & \\text{B} & \\text{C} & \\ldots & \\text{Z}",
+										"\\text{A} & \\text{AA} & \\text{AB} & \\text{AC} & \\ldots & \\text{AZ}",
+										"\\text{B} & \\text{BA} & \\text{BB} & \\text{BC} & \\ldots & \\text{BZ}",
+										"\\text{C} & \\text{CA} & \\text{CB} & \\text{CC} & \\ldots & \\text{CZ}",
+										"\\vdots & \\vdots & \\vdots & \\vdots & \\vdots & \\vdots",
+										"\\text{Z} & \\text{ZA} & \\text{ZB} & \\text{ZC} & \\ldots & \\text{ZZ}"
+									]
+								}
+							]
+						},
+						{
+							"type" : "numeral",
+							"objects" : [
+								{
+									"type" : "text",
+									"data" : "${26} \\times {26} = {676}$"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type" : "section",
+					"title" : "E.G.",
+					"objects" : [
+						{
+							"type" : "text",
+							"data" : "How many outcomes are possible if we roll a 6-side die twice?"
+						}
+					]
+				},
+				{
+					"type" : "section",
+					"title" : "Solution",
+					"objects" : [
+						{
+							"type" : "numeral",
+							"objects" : [
+								{
+									"type" : "array",
+									"columns" : "c|cccccc",
+									"inline" : true,
+									"hline" : false,
+									"rows" : [
+										"\\text{} & {1} & {2} & {3} & {4} & {5} & {6}",
+										"{1} & \\text{1|1} & \\text{1|2} & \\text{1|3} & \\text{1|4} & \\text{1|5} & \\text{1|6}",
+										"{2} & \\text{2|1} & \\text{2|2} & \\text{2|3} & \\text{2|4} & \\text{2|5} & \\text{2|6}",
+										"{3} & \\text{3|1} & \\text{3|2} & \\text{3|3} & \\text{3|4} & \\text{3|5} & \\text{3|6}",
+										"{4} & \\text{4|1} & \\text{4|2} & \\text{4|3} & \\text{4|4} & \\text{4|5} & \\text{4|6}",
+										"{5} & \\text{5|1} & \\text{5|2} & \\text{5|3} & \\text{5|4} & \\text{5|5} & \\text{5|6}",
+										"{6} & \\text{6|1} & \\text{6|2} & \\text{6|3} & \\text{6|4} & \\text{6|5} & \\text{6|6}"
+									]
+								}
+							]
+						},
+						{
+							"type" : "numeral",
+							"objects" : [
+								{
+									"type" : "text",
+									"data" : "${6} \\times {6} = {36}$"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type" : "section",
+					"title" : "E.G.",
+					"objects" : [
+						{
+							"type" : "text",
+							"data" : "How many outcomes are possible if we flip a coin 3 times?"
+						}
+					]
+				},
+				{
+					"type" : "section",
+					"title" : "Solution",
+					"objects" : [
+						{
+							"type" : "text",
+							"data" : "${2} \\times {2} \\times {2} = {8}$"
+						}
+					]
+				},
+				{
+					"type" : "header",
+					"title" : "Principle of Counting",
+					"objects" : [
+						{
+							"type" : "text",
+							"data" : "Suppose that the outcomes of some experiments have ${k}$ components. The ${1^\\text{st}}$ component has ${n_1}$ outcomes, the ${2^\\text{nd}}$ component has ${n_2}$ outcomes, the ${3^\\text{rd}}$ component has ${n_3}$ outcomes, $\\ldots$ , the ${k^\\text{th}}$ component has ${n_k}$ outcomes. Then, the total number of outcomes is ${n_1,n_2,n_3,\\ldots,n_k}$"
+						}
+					]
+				}
+			]
+		}
+	]
+}
